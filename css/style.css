@@ -1,0 +1,286 @@
+/* Start Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 25px;
+    background: Fuchsia;
+    border-radius: 5px;
+}
+
+/* End Common CSS */
+
+/* Start NavBar CSS */
+
+.nav-area {
+    position: relative;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-content ul li {
+    display: inline;
+}
+
+.nav-content ul li a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F15B22;
+    margin-right: 30px;
+}
+/* End NavBar CSS */
+
+/* Start Banner CSS */
+#banner {
+    background: url('../images/Banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 216px 0px 166px 0px;
+}
+
+.banner-content {
+    width: 525px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.banner-content h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #151414;
+}
+
+.banner-content p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 0px 32px 0px;
+}
+/* End Banner CSS */
+
+/* Start About CSS */
+#about {
+    padding: 130px 0;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 416px;
+}
+
+.about-text h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+}
+
+.about-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 0px 16px 0px;
+}
+
+.about-text ul li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+
+.about-text ul li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #16D887;
+}
+/* End About CSS */
+
+/* Start Plans CSS */
+.title h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.plans-itams-area {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plans-item h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding: 10px 0;
+}
+
+.plans-item p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* End Plans CSS */
+
+/* Start Call-Now CSS */
+#call-now {
+    padding: 10px 0;
+}
+
+.call-now-area {
+    background: linear-gradient(to right, rgb(241, 91, 34), rgba(255, 255, 255, 0)), url('../images/watch.png');
+    padding: 59px 64px;
+    border-radius: 8px;
+}
+
+.call-now-area h4 {
+    width: 459px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+#call-now .btn a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+}
+/* End Call-Now CSS */
+
+/* Start Footer CSS */
+#footer {
+    background: #151414;
+    padding: 130px 0px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 485px;
+}
+
+.footer-info h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-info p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 26px;
+    color: #fff;
+    padding: 16px 0px 24px 0px;
+}
+
+.footer-info a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 26px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.footer-icon {
+    padding-top: 16px;
+}
+
+.footer-icon img {
+    margin-right: 17px;
+}
+
+.footer-subscribe h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer-subscribe input {
+    display: block;
+    width: 305px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+#footer .btn a {
+    background: #fff;
+    color: #F15B22;
+}
+/* End Footer CSS */
